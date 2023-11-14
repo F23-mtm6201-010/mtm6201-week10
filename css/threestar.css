@@ -1,3 +1,17 @@
+:root{
+  --bs-primary: #C78C06;
+  --bs-secondary: #FFE6AC;
+  --bs-primary-rgb: rgb(177, 126, 6);
+  --bs-secondary-rgb: 255, 230, 172;
+  --bs-primary-text-emphasis: #b17e06;
+  --bs-secondary-text-emphasis: #fbdc94;
+  --bs-primary-bg-subtle: #dda31e;
+  --bs-secondary-bg-subtle: #fbe9bf;
+  --bs-primary-border-subtle: #dda31e;
+  --bs-secondary-border-subtle: #fbe9bf;
+}
+
+
 .banner{
   background: white url(../images/main-banner.jpg) no-repeat center;
   background-size: cover;
