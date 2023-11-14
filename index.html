@@ -9,6 +9,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Animate on Scroll CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/threestar.css">
 </head>
@@ -17,7 +21,7 @@
   <header class="bg-dark">
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container-lg">
-        <a class="navbar-brand" href="#home">
+        <a class="navbar-brand animate__animated animate__tada" href="#home">
           <img src="images/logo.png" alt="Three Star Media Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +66,7 @@
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse omnis ratione deleniti fuga dolore quod eius iusto eligendi illum at corporis, exercitationem quis aliquam rem asperiores, facilis officiis doloremque inventore.
             </p>
-            <a href="#contact" class="btn btn-primary rounded-0 p-2">
+            <a href="#contact" class="hvr-radial-out btn btn-primary rounded-0 p-2">
               Connect With Us <i class="bi bi-play-fill"></i>
             </a>
           </div><!-- closes .col -->
@@ -74,10 +78,10 @@
       <div class="container-lg">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/about-us.jpg" alt="placeholder" class="w-100">
+            <img data-aos="zoom-in" src="images/about-us.jpg" alt="placeholder" class="w-100">
           </div>
           <div class="col-md-6">
-            <h2 class="display-3">About Us</h2>
+            <h2 class="display-3" data-aos="fade-in">About Us</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, sunt itaque? Nihil repellat beatae itaque quo perspiciatis architecto non id, asperiores nam voluptatum minima illum similique voluptas aliquam voluptate quos.
             </p>
@@ -91,6 +95,11 @@
   </main>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Animate on Scroll JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
