@@ -1,16 +1,32 @@
-:root{
+:root,
+[data-bs-theme=light],
+[data-bs-theme=dark]{
   --bs-primary: #C78C06;
   --bs-secondary: #FFE6AC;
   --bs-primary-rgb: rgb(177, 126, 6);
   --bs-secondary-rgb: 255, 230, 172;
   --bs-primary-text-emphasis: #b17e06;
   --bs-secondary-text-emphasis: #fbdc94;
-  --bs-primary-bg-subtle: #dda31e;
+  --bs-primary-bg-subtle: #e0a929;
   --bs-secondary-bg-subtle: #fbe9bf;
   --bs-primary-border-subtle: #dda31e;
   --bs-secondary-border-subtle: #fbe9bf;
 }
-
+.btn-primary,
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary-bg-subtle);
+  --bs-btn-hover-border-color: var(--bs-primary-bg-subtle);
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary);
+  --bs-btn-disabled-color: var(--bs-primary-text-emphasis);
+  --bs-btn-disabled-border-color: var(--bs-primary-text-emphasis);
+}
+.btn-primary{
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-color: black;
+}
 
 .banner{
   background: white url(../images/main-banner.jpg) no-repeat center;
